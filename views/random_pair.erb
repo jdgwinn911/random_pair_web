@@ -1,0 +1,30 @@
+<html>
+   <head>
+        <title>Random Pairs</title>
+        <script src="/js/randompair.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/random.css">
+   </head>
+    <body background="images/noice.jpg" align="middle">
+        <center>
+        <div class="toppy">
+       <h1><font color= "yellow">Randomly pair any amount of names you like</font></h1>
+         </div>
+        <button onclick="funky()">more boxes</button><br><br>
+            <button onclick="notSoFunky()">remove boxes</button><br>
+                <form method="post" action="/randomocity"><br>
+                  <input type="submit" id="btn" value="randomize" ><br><br>
+                    <div id="perm"> <input type="text"  name="names[]" placeholder="enter a name">
+                </div><!--
+                --><div id="anything"></div>
+        
+            <div class="names">
+            <h2><%=grouped_names%><h2>
+         </div>
+    
+    
+    
+    
+        </center>
+        </form>
+    </body>
+</html>

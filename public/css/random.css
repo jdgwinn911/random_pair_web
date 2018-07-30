@@ -1,0 +1,42 @@
+.names
+{
+    color:white;
+    background-color: rgba(0, 8, 15, 0.486);
+    width: 300px;
+    border: 25px transparent rgb(1, 0, 85);
+    padding: 25px;
+    margin: 25px;
+    opacity: 0.9;
+    box-shadow: 10px;
+    text-decoration-style: wavy;
+}
+
+#perm 
+{
+    width:50%;
+}
+
+#anything
+{
+    width:50%;
+}
+
+input{
+    margin: 3px;
+}
+
+.toppy
+{
+    background-color: rgba(0, 4, 7, 0.473);
+    width: 300px;
+    border: 25px transparent rgb(1, 0, 85);
+    padding: 25px;
+    margin: 25px;
+    opacity: 0.9;
+    box-shadow: 10px;
+
+}
+#mouse
+{
+    
+}
